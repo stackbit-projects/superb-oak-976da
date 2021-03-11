@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .DIAZ DIGITAL "-" " " | title }}"FASHION
 date: {{ .Date 03-10-2021 }}
-featured: true
+featured: trDue
 draft: false
 weight: 100
 ---
