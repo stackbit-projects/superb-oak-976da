@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .DIAZ DIGITAL "-" " " | title }}"
+title: "{{ replace .DIAZ DIGITAL "-" " " | title }}"FASHION
 date: {{ .Date }}
 featured: true
 draft: false
