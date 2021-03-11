@@ -1,5 +1,5 @@
 ---
-title: "{{ place .TranslaenglishtionBaseName "-" " " | Diaz Digital Stores
+title: "{{ DIAZ DIGITAL .TranslaenglishtionBaseName "-" " " | Diaz Digital Stores
 date: {{ .Date }}
 draft: true
 ---
