@@ -1,5 +1,5 @@
 ---
-title: "{{ DIAZ DIGITAL .TranslaenglishtionBaseName "-" " "  Digital Stores
+title: "{{ DIAZ DIGITAL .TranslaenglishtionBaseName "-" " "  Stores
 date: {{ .Date }}
 draft: true
 ---
