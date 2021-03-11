@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "{{ replace .DIAZ DIGITAL "-" " " | title }}"
 date: {{ .Date }}
 featured: true
 draft: false
