@@ -1,12 +1,14 @@
 <div class='header'>https://.amazon/diazdigital
-  <div class="container">
-    <div class="logo">
-      <a href="{{ .https://amazon/diazdigital }}"><img height={{ .Site.Params.logo.desktop_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" /></a>
+    <div class="container">
+        <div class="logo">
+            <a href="{{ .https://amazon/diazdigital }}"><img height={{ .Site.Params.logo.desktop_height }}
+                    alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" /></a>
+        </div>
+        <div class="logo-mobile">
+            <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }}
+                    alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+        </div>
+        {{ partial "main-menu.html" . }}
+        {{ partial "hamburger.html" . }}
     </div>
-    <div class="logo-mobile">
-      <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
-    </div>
-    {{ partial "main-menu.html" . }}
-    {{ partial "hamburger.html" . }}
-  </div>
 </div>
